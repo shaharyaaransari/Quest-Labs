@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import './App.css'
-import Modal from './components/Modal'
+
 import { Navbar } from './components/Navbar'
 import { Profile } from './pages/Profile'
 import API from "./shared/axios"
@@ -13,8 +13,8 @@ function App() {
   const [data,setData]=useState({});
   const [pointsData,setPointsData]=useState({});
   const [rankData,setRankData]=useState({});
-  const [pointsHistory,setPointsHistory]=useState({});
-  const [badge,setBadge]=useState({});
+  const [pointsHistory,setPointsHistory]=useState([]);
+  const [badge,setBadge]=useState([]);
 
   useEffect(()=>{
     API.get('/users/u-a2399489-9cd0-4c94-ad12-568379202b08').then((res)=>{
@@ -41,6 +41,7 @@ function App() {
     })
 
     API.get('entities/e-0000000000/users/u-a2399489-9cd0-4c94-ad12-568379202b08/badges').then((res)=>{
+        console.log(res.data)
       setBadge(res?.data);
     }).catch((error)=>{
       console.log(error);
@@ -52,8 +53,8 @@ function App() {
   return (
   <div>
   <Navbar/>
-   <Profile data={data} pointsData={pointsData} rankData={rankData}/>
-   <Modal/>
+   <Profile data={data} pointsData={pointsData} rankData={rankData} badge={badge} pointsHistory={pointsHistory}/>
+   
   </div>
   )
 }

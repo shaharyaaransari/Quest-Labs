@@ -1,0 +1,14 @@
+.badge-container{
+display: grid;
+margin: auto;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 3%;
+
+
+align-items: center;
+
+}
+
+.badge-subcont{
+    margin: auto;
+}

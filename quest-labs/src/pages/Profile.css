@@ -72,5 +72,11 @@ padding: 10px 0 5px 0;
     font-size: 20px;
     color: #444;
     font-weight: 600;
+     
+}
+.profile-plan .active{
+ 
+  width: 40%;
+  border-bottom: 3px solid rgb(88, 88, 186);
 }
 
