@@ -1,11 +1,13 @@
-import React from 'react'
+
 import '../pages/Profile.css'
-function ProfileImage() {
+
+function ProfileImage({data}) {
+  
   return (
     <>
       <div className='profile-image'>
         <div className='profile'>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqYnhn8Ezgfwmd20CI5sKaHRMy2kR3uYmiHkInta0qiJheLow9i8uJ_qD1sOznIp3qGBo&usqp=CAU" alt="profile" />
+        <img src={data?.data?.imageUrl}alt="profile" />
         </div>
 
      </div>

@@ -1,10 +1,10 @@
 import React from 'react'
 import '../pages/Profile.css'
-function ProfileDetailsCard() {
+function ProfileDetailsCard({data}) {
   return (
     <>
      <div className='profile-details'>
-      <h2>Rich Explorer</h2>
+      <h2>{data?.data?.name}</h2>
      </div>
      {/* card */}
    
