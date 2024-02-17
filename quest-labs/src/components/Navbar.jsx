@@ -5,7 +5,7 @@ export const Navbar = () => {
     <>
        <div className='nav'>
        <button className='back-button'>
-        <img src={back} alt="" />
+        <img src={back} alt="back" />
     </button>
         <h3>Profile</h3>
         </div>    

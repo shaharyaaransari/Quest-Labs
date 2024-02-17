@@ -5,8 +5,6 @@ import "./Modal.css";
 
 function Modal({ badge }) {
   const [show, setShow] = useState(false);
-
-  // Check if badge and badge.data are defined
   const badgeImage = badge?.data?.[0]?.imageUrl || '';
 
   return (
@@ -20,7 +18,6 @@ function Modal({ badge }) {
               </button>
             </div>
             <div>
-              {/* Render the first badge image */}
               <div className="badge-subcont">
                 <div  className="badge-image-container">
                   <img src={badgeImage} alt="Badge" />

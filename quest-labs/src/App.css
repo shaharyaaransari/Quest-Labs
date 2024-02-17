@@ -33,6 +33,7 @@ body {
   font-size: 25px;
   color: white;
   font-family: sans-serif;
+  margin-left: 21%;
 }
 
 table {
@@ -51,7 +52,7 @@ td {
 tr:nth-child(even) {
   background-color: #e8e8e8;
 }
-/* footer */
+
 .footer{
   width: 100%;
   position: fixed;
@@ -83,6 +84,7 @@ tr:nth-child(even) {
   }
 
   .nav h3 {
+     margin-left: 13%;
     font-size: 20px;
   }
   th,
@@ -116,12 +118,13 @@ tr:nth-child(even) {
 }
 
 
-@media only screen and (min-width: 400px) and (max-width: 500px) {
+@media only screen and (min-width: 400px) and (max-width: 600px) {
   #root {
     padding: 0;
   }
 
   .nav h3 {
+    margin-left: 4%;
     font-size: 20px;
   }
 

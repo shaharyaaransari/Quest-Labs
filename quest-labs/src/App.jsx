@@ -10,7 +10,6 @@ import Footer from './components/Footer';
 
 
 function App() {
-
   const [data,setData]=useState({});
   const [pointsData,setPointsData]=useState({});
   const [rankData,setRankData]=useState({});
@@ -42,7 +41,7 @@ function App() {
     })
 
     API.get('entities/e-0000000000/users/u-a2399489-9cd0-4c94-ad12-568379202b08/badges').then((res)=>{
-        console.log(res.data)
+    
       setBadge(res?.data);
     }).catch((error)=>{
       console.log(error);
