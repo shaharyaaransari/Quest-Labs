@@ -1,5 +1,6 @@
 # Quest-Labs
-
+   ## Deployed Link :
+      https://quest-labs-gamma.vercel.app/
 ## Description
 This project is a React-based web application designed to display user profiles and relevant information 
 including points, ranks, badges, and point history. Here's a brief overview of the project along with the
@@ -34,3 +35,11 @@ Backend:
 3. Install dependencies using npm install.
 4. Start the development server using npm run dev.
 5. Access the application in your web browser at http://127.0.0.1:5173/.
+## Additional Notes
+1. Ensure that the backend APIs are running and accessible for fetching user data and other relevant information.
+2. Customize and extend the components as per your project requirements.
+3. Make sure to handle error scenarios gracefully, especially during API requests.
+4. The Axios instance is configured with necessary headers including "accept", "apikey", "token", and "userid" using interceptors.
+
+## Environment Variables
+VITE_API_URL: This environment variable should be set to the base URL of the backend API, for example, https://staging.questprotocol.xyz/api.
