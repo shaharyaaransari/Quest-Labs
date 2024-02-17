@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import "./Modal.css";
+import { spread } from "axios";
 
 function Modal({ badge }) {
   const [show, setShow] = useState(false);
@@ -20,7 +21,7 @@ function Modal({ badge }) {
             <div>
               <div className="badge-subcont">
                 <div  className="badge-image-container">
-                  <img src={badgeImage} alt="Badge" />
+                {badgeImage ? <img src={badgeImage} alt="Badge" />:<span>laoding...</span>}  
                 </div>
               </div>
             </div>
