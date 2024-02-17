@@ -10,7 +10,7 @@
   position: relative;
 }
 .profile {
-  width: 9%;
+  width: 8%;
   height: 100px;
   position: absolute;
   border: 3px solid #ffffff;
@@ -75,8 +75,78 @@ padding: 10px 0 5px 0;
      
 }
 .profile-plan .active{
- 
+ color:rgb(88, 88, 186) ;
   width: 40%;
   border-bottom: 3px solid rgb(88, 88, 186);
 }
 
+@media only screen and (min-width: 375px) and (max-width: 667px){
+  .main-profile-container {
+    width: 100%;
+    margin-top: 4em; 
+    padding-top: 50px; 
+border-radius: 8px;
+  .profile {
+    width: 25%; 
+    height: 80px;
+    top: 10%;
+    margin-top: -15%;
+  }
+
+  .profile-desc {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+
+  .profile-desc div {
+    font-size: 14px;
+  }
+
+  .profile-plan {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5%;
+     
+  }
+
+  .profile-plan button {
+    width: 100%; 
+    margin-bottom: 10px;
+    font-size: 15px; 
+  }
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  .main-profile-container {
+    width: 100%;
+    margin-top: 4em; 
+    padding-top: 50px; 
+  }
+
+  .profile {
+    width: 21%; 
+    height: 80px; 
+    top: 10%;
+    margin-top: -15%;
+  }
+
+  .profile-desc {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+
+  .profile-desc div {
+    font-size: 14px; 
+  }
+
+  .profile-plan {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5%; 
+     
+  }
+
+  .profile-plan button {
+    width: 100%; 
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+}
+}

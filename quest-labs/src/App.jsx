@@ -6,6 +6,7 @@ import './App.css'
 import { Navbar } from './components/Navbar'
 import { Profile } from './pages/Profile'
 import API from "./shared/axios"
+import Footer from './components/Footer';
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
   <div>
   <Navbar/>
    <Profile data={data} pointsData={pointsData} rankData={rankData} badge={badge} pointsHistory={pointsHistory}/>
+   <Footer/>
    
   </div>
   )

@@ -9,13 +9,13 @@ export default function Badge({ badge }) {
         badge?.data?.map((item) => {
           return (
             <div key={item._id} className="badge-subcont">
-              <div style={{width:'100px', }}>
-                <img src={item?.imageUrl} alt={item?.name} style={{width:"100%", objectFit:"cover"}}/>
+              <div style={{width:'100px',marginBottom:"20px" }}>
+                <img src={item?.imageUrl} alt={item?.name} />
               </div>
             </div>
           );
         })}
-      <Modal />
+      <Modal badge={badge}/>
     </div>
   );
 }
