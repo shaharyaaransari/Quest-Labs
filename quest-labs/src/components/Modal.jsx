@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import "./Modal.css";
 import { spread } from "axios";
+import { Spinner } from "./Spinner";
 
 function Modal({ badge }) {
   const [show, setShow] = useState(false);
@@ -21,7 +22,7 @@ function Modal({ badge }) {
             <div>
               <div className="badge-subcont">
                 <div  className="badge-image-container">
-                {badgeImage ? <img src={badgeImage} alt="Badge" />:<span>laoding...</span>}  
+                {badgeImage ? <img src={badgeImage} alt="Badge" />:<Spinner/>}  
                 </div>
               </div>
             </div>
