@@ -43,3 +43,15 @@ Backend:
 
 ## Environment Variables
 VITE_API_URL: This environment variable should be set to the base URL of the backend API, for example, https://staging.questprotocol.xyz/api.
+ ## Over Veiw of Website
+ # Desktop Veiw
+ ![Screenshot (362)](https://github.com/shaharyaaransari/Quest-Labs/assets/113225294/24404a54-6d10-46b5-a3ef-46a7afca987c)
+ 
+![Screenshot (363)](https://github.com/shaharyaaransari/Quest-Labs/assets/113225294/e056fc7d-3f0d-44d2-9f06-8f0aa1be034a)
+
+![Screenshot (364)](https://github.com/shaharyaaransari/Quest-Labs/assets/113225294/e6e9d502-8ae9-48b1-a832-bb0d0108c918)
+# Mobile Veiw
+![WhatsApp Image 2024-02-17 at 11 27 36 AM (2)](https://github.com/shaharyaaransari/Quest-Labs/assets/113225294/bb457a5c-372f-4077-9e1e-4abdf2aa3641)
+![WhatsApp Image 2024-02-17 at 11 27 36 AM (1)](https://github.com/shaharyaaransari/Quest-Labs/assets/113225294/4158dae7-3295-4db2-915e-9254cfeda358)
+![WhatsApp Image 2024-02-17 at 11 27 36 AM](https://github.com/shaharyaaransari/Quest-Labs/assets/113225294/013267d7-4324-46ba-a5ac-85a2515c5d55)
+
