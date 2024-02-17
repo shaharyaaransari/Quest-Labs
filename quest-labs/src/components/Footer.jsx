@@ -9,16 +9,16 @@ function Footer() {
     <div className='footer'>
 <div className='footer-item'>
 <div>
-    <img src={home} alt="" />
+    <img src={home} alt="home" />
 </div>
 <div>
-    <img src={search} alt="" />
+    <img src={search} alt="search" />
 </div>
 <div>
-    <img src={bag} alt="" />
+    <img src={bag} alt="bag" />
 </div>
 <div>
-    <img src={user} alt="" />
+    <img src={user} alt="user" />
 </div>
 </div>
     </div>
