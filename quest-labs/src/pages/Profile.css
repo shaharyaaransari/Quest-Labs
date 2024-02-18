@@ -67,7 +67,7 @@ padding: 10px 0 5px 0;
     margin-top: 3%;
 }
 .profile-plan button{
-    width: 100%;
+    width: 50%;
     border: none;
     padding: 10px;
     outline: none;
@@ -112,7 +112,7 @@ border-radius: 8px;
   }
 
   .profile-plan button {
-    width: 100%; 
+    width: 50%; 
     margin-bottom: 10px;
     font-size: 15px; 
   }
@@ -148,7 +148,7 @@ border-radius: 8px;
   }
 
   .profile-plan button {
-    width: 100%; 
+    width: 50%; 
     margin-bottom: 10px;
     font-size: 15px;
   }
